@@ -1,0 +1,29 @@
+﻿BONUS: CHEQUEAR QUE UNA PERSONA NO SAQUE MAS DE 20.000 DE SU CUENTA EN UN DÍA.
+BONUS 2: HACER OTRA LISTA DE CUENTAS DE ADMIN, PARA QUE ENEL LOGIN, SI NO SE ECNEUNTRA LA CUENTA EN LA LISTA DE CUENTAS DE
+         USUARIOS, SE LA BUSUQE EN LA DE ADMINS. EN CASO DE NO EXISTIR CUENTAS DE USUARIO AÚN, LA PRIMERA CUENTA DE 
+         USUARIO DEBERÍA SER CREADA A MANO (ES DECIR, EN EL ARCHIVO DE CUENTAS DE USUARIOS).
+
+
+                                                    U S E R  O P T I O N S
+                                                    1. Withdraw cash: fast cash: LISTO
+                                                                      normal cash: LISTO
+                                                    2. Cash transfer: LISTO
+                                                    3. Deposit cash: LISTO
+                                                    4. Display balance: LISTO
+
+
+                                                    A D M I N  O P T I O N S
+                                                    1. Create new account: LISTO
+                                                    2. Delete existing account: LISTO
+                                                    3. Update account information: ARREGLAR Update_Acc_and_Redo_AccList
+                                                    4. Search for account: CANCELADO (NO SE ME OCURRE COMO HACERLO).
+                                                    5. View reports: LISTO (MAS O MENOS, FALTA UNA OPCION PERO NO).
+
+
+
+.pareciera estar   #REFACTORIZAR EL TEMA DE CUANDO BUSCA UNA CUENTA EN FILAS[]. (CON UN FOR, DONDE CADA LINEA SEA UNA CUENTA Y BUSQUE LA 
+ arreglado         CUENTA DESEADA EN BASE A LAS PROPIEDADES DE LAS CUENTAS).
+
+.pareciera estar        #ARREGLAR EL TEMA DE LAS IDS DE LAS CUENTAS(CUANDO SE CREA UNA CUENTA HABIENDO SIDO OTRA BORRRADA PREVAMENTE, 
+ arreglado              EL ID DE LA NUEVA CUENTA SE VA A REPETIR QUIZAS.) --> TRACKEAR CUAL FUE EL ID DE LA ULTIMA CUENTA CREADA Y SUMARLE 1. VER BIEN LPM
+
